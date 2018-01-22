@@ -1,0 +1,22 @@
+{
+  "name": "GMES_CLIENT_MT",
+  "title": "GMES_CLIENT_MT",
+  "version": "0.0.6",
+  "main": "./main.js",
+  "updater": {
+    "url": "http://10.55.1.135:7001/gclient-pad/auto-update/electron/update.json"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ GMES_CLIENT_MT --win --out GMES_CLIENT_MT --arch=x64 --version 1.4.13 --overwrite --ignore=node_modules --version-string.CompanyName=GMES_CLIENT_MT --version-string.ProductName=GMES_CLIENT_MT"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.0",
+    "grunt": "^1.0.1",
+    "grunt-electron-installer": "^2.1.0"
+  },
+  "dependencies": {
+    "electron-simple-updater": "^1.2.0",
+    "getmac": "^1.2.1"
+  }
+}

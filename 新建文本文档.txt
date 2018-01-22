@@ -1,0 +1,1 @@
+//http://10.96.100.132/gmes-client-pad/auto-update/electron/update.json
